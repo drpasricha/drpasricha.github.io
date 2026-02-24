@@ -19,7 +19,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Academic Portfolio',
+    default: 'Dr. Puneet Pasricha',
     template: '%s | Academic Portfolio',
   },
   description: 'Academic portfolio and research profile',
