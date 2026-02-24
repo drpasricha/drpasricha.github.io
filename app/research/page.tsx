@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { PageHeader } from "@/components/page-header"
 import { Section } from "@/components/section"
+import { FileText, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Research",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 const publications = [
   {
     category: "Journal Articles",
+    icon: FileText,
     items: [
       {
         title: "Placeholder Publication Title One",
@@ -26,6 +28,7 @@ const publications = [
   },
   {
     category: "Conference Papers",
+    icon: FileText,
     items: [
       {
         title: "Placeholder Conference Paper Title",
@@ -37,6 +40,7 @@ const publications = [
   },
   {
     category: "Working Papers",
+    icon: FileText,
     items: [
       {
         title: "Placeholder Working Paper Title",
@@ -60,21 +64,35 @@ export default function ResearchPage() {
           <div key={section.category}>
             {idx > 0 && <div className="border-t border-border" />}
             <Section title={section.category}>
-              <ul className="flex flex-col gap-6">
+              <ul className="flex flex-col gap-5">
                 {section.items.map((pub, i) => (
-                  <li key={i} className="flex flex-col gap-1 border-l-2 border-accent/40 pl-4">
-                    {pub.link ? (
-                      <a
-                        href={pub.link}
-                        className="text-sm font-semibold text-foreground underline decoration-border underline-offset-4 transition-colors hover:decoration-accent"
-                      >
-                        {pub.title}
-                      </a>
-                    ) : (
-                      <span className="text-sm font-semibold text-foreground">{pub.title}</span>
-                    )}
-                    <span className="text-sm text-muted-foreground">{pub.authors}</span>
-                    <span className="text-xs italic text-muted-foreground">{pub.venue}</span>
+                  <li
+                    key={i}
+                    className="card-hover group rounded-xl border border-border bg-card p-5"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      {pub.link ? (
+                        <a
+                          href={pub.link}
+                          className="link-underline relative text-sm font-semibold text-foreground"
+                        >
+                          {pub.title}
+                        </a>
+                      ) : (
+                        <span className="text-sm font-semibold text-foreground">{pub.title}</span>
+                      )}
+                      {pub.link && (
+                        <a
+                          href={pub.link}
+                          className="mt-0.5 shrink-0 text-muted-foreground transition-colors hover:text-accent"
+                          aria-label={`Link to ${pub.title}`}
+                        >
+                          <ExternalLink className="h-3.5 w-3.5" />
+                        </a>
+                      )}
+                    </div>
+                    <p className="mt-1.5 text-sm text-muted-foreground">{pub.authors}</p>
+                    <p className="mt-1 text-xs italic text-muted-foreground/80">{pub.venue}</p>
                   </li>
                 ))}
               </ul>

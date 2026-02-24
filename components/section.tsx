@@ -10,9 +10,12 @@ export function Section({ title, children, className }: SectionProps) {
   return (
     <section className={cn("py-12", className)}>
       {title && (
-        <h2 className="mb-6 font-serif text-2xl font-semibold tracking-tight text-foreground">
-          {title}
-        </h2>
+        <div className="mb-6 flex items-center gap-3">
+          <span className="h-px w-5 bg-accent/50" />
+          <h2 className="font-serif text-2xl font-semibold tracking-tight text-foreground">
+            {title}
+          </h2>
+        </div>
       )}
       {children}
     </section>

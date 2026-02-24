@@ -46,13 +46,13 @@ export default function ProjectsPage() {
       />
       <div className="mx-auto max-w-5xl px-6">
         <Section>
-          <div className="flex flex-col gap-6">
+          <div className="grid gap-5 md:grid-cols-2">
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="rounded-lg border border-border bg-card p-6"
+                className="card-hover flex flex-col rounded-xl border border-border bg-card p-6"
               >
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                <div className="flex items-start justify-between gap-3">
                   <div className="flex flex-col gap-1">
                     <div className="flex items-center gap-2">
                       <h3 className="text-base font-semibold text-foreground">
@@ -73,21 +73,21 @@ export default function ProjectsPage() {
                   <span
                     className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${
                       project.status === "Active"
-                        ? "bg-accent/10 text-accent"
-                        : "bg-secondary text-secondary-foreground"
+                        ? "border border-accent/20 bg-accent/10 text-accent"
+                        : "border border-border bg-secondary text-muted-foreground"
                     }`}
                   >
                     {project.status}
                   </span>
                 </div>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
                   {project.description}
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-border bg-secondary px-2.5 py-0.5 text-xs text-secondary-foreground"
+                      className="rounded-full border border-border bg-secondary/60 px-2.5 py-0.5 text-xs font-medium text-secondary-foreground"
                     >
                       {tag}
                     </span>
