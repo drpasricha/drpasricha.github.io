@@ -43,7 +43,7 @@ export function Navbar() {
           className="group flex items-center gap-2 font-serif text-lg font-semibold tracking-tight text-foreground"
         >
           <span className="inline-block h-2 w-2 rounded-full bg-accent transition-transform duration-300 group-hover:scale-125" />
-          Academic Portfolio
+          Dr. Pasricha
         </Link>
 
         {/* Desktop nav */}
