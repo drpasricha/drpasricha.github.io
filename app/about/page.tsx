@@ -30,7 +30,7 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col gap-4">
               <p className="max-w-2xl leading-relaxed text-muted-foreground">
-                Replace this with your biography. Describe your academic background, current position, and general research interests.
+               aBCD.
               </p>
               <p className="max-w-2xl leading-relaxed text-muted-foreground">
                 Add a second paragraph about your research journey, methodology, and what drives your academic work.
