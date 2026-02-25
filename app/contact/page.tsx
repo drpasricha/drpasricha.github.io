@@ -55,11 +55,11 @@ export default function ContactPage() {
               <h3 className="mb-4 font-serif text-lg font-semibold text-foreground">Profiles</h3>
               <ul className="flex flex-col gap-3">
                 {[
-                  { label: "Google Scholar", href: "#" },
+                  { label: "Google Scholar", href: "https://scholar.google.com/citations?user=zafqrsUAAAAJ&hl=en" },
                   { label: "ORCID", href: "#" },
                   { label: "ResearchGate", href: "#" },
-                  { label: "LinkedIn", href: "#" },
-                  { label: "GitHub", href: "#" },
+                  { label: "LinkedIn", href: "https://www.linkedin.com/in/puneet-p-11128b6a/" },
+                  // { label: "GitHub", href: "#" },
                 ].map((profile) => (
                   <li key={profile.label}>
                     <a
