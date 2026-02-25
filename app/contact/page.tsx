@@ -29,7 +29,7 @@ export default function ContactPage() {
                     href="mailto:your.email@university.edu"
                     className="link-underline relative text-sm text-muted-foreground"
                   >
-                    your.email@university.edu
+                    puneet.pasricha@iitrpr.ac.in
                   </a>
                 </div>
               </div>
