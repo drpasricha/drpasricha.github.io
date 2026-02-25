@@ -176,18 +176,18 @@ const publications = [
 },
     ],
   },
-  {
-    category: "Conference Papers",
-    icon: FileText,
-    items: [
-      {
-        title: "Placeholder Conference Paper Title",
-        authors: "Your Name, Co-Author D",
-        venue: "Proceedings of the Annual Conference on Placeholder Research, 2025",
-        link: "#",
-      },
-    ],
-  },
+  // {
+  //   category: "Conference Papers",
+  //   icon: FileText,
+  //   items: [
+  //     {
+  //       title: "Placeholder Conference Paper Title",
+  //       authors: "Your Name, Co-Author D",
+  //       venue: "Proceedings of the Annual Conference on Placeholder Research, 2025",
+  //       link: "#",
+  //     },
+  //   ],
+  // },
   {
     category: "Working Papers",
     icon: FileText,
