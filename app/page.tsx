@@ -43,10 +43,11 @@ export default function Home() {
               </p>
             </div>
             <h1 className="animate-fade-in-up animate-delay-100 max-w-2xl font-serif text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl text-balance">
-              Your Name
+              PUNEET PASRICHA
             </h1>
             <p className="animate-fade-in-up animate-delay-200 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-              Position / Title at Your University. Brief one-line description of your research focus and academic interests.
+              Assistant Professor, Department of Mathematics, Indian Institute of Technology Ropar 
+              //Brief one-line description of your research focus and academic interests.
             </p>
             <div className="animate-fade-in-up animate-delay-300 flex flex-wrap items-center gap-3 pt-2">
               <Link
