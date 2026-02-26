@@ -11,16 +11,17 @@ const cvSections = [
   {
     heading: "Academic Positions",
     items: [
-      { primary: "Position Title, Department", secondary: "University Name", date: "20XX -- Present" },
-      { primary: "Previous Position, Department", secondary: "University Name", date: "20XX -- 20XX" },
+      { primary: "Assistant Professor, Department of Mathematics", secondary: "Indian Institute of Technology Ropar", date: "October 2023 -- Present" },
+      { primary: "Scientific Collaborator, CDM", secondary: "École Polytechnique Fédérale de Lausanne (EPFL), Switzerland", date: "February 2020 -- September 2023" },
+      { primary: "Visiting Associate Fellow, SMAS", secondary: "University of Wollongong, Australia", date: "February 2019 -- December 2019" },
     ],
   },
   {
     heading: "Education",
     items: [
-      { primary: "Ph.D. in Your Field", secondary: "University Name", date: "20XX" },
-      { primary: "M.S. in Your Field", secondary: "University Name", date: "20XX" },
-      { primary: "B.S. in Your Field", secondary: "University Name", date: "20XX" },
+      { primary: "Ph.D., Mathematics", secondary: "Indian Institute of Technology Delhi", date: "2018" },
+      { primary: "M.Sc. Mathematics", secondary: "Indian Institute of Technology Delhi", date: "2014" },
+      // { primary: "B.S. in Your Field", secondary: "University Name", date: "2012" },
     ],
   },
   {
@@ -30,6 +31,14 @@ const cvSections = [
       { primary: "Fellowship Name", secondary: "Granting Organization", date: "20XX" },
     ],
   },
+  {
+    heading: "Administrative Responsibilities",
+    items: [
+      { primary: "Position 1", secondary: "University", date: "20XX -- Present" },
+      { primary: "Position 2", secondary: "Organization", date: "20XX -- 20XX" },
+    ],
+  },
+
   {
     heading: "Professional Service",
     items: [
