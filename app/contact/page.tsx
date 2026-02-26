@@ -41,10 +41,10 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-1">
                   <span className="text-sm font-semibold text-foreground">Office</span>
                   <p className="text-sm leading-relaxed text-muted-foreground">
-                    Room XXX, Building Name<br />
-                    Department of Your Department<br />
-                    University Name<br />
-                    City, State ZIP
+                    Room C-318, Third Floor, SAB<br />
+                    Department of Mathematics<br />
+                    Indian Institute of Technology Ropar<br />
+                    Rupnagar, Punjab 140001
                   </p>
                 </div>
               </div>
