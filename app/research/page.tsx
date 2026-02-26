@@ -193,11 +193,23 @@ const publications = [
     icon: FileText,
     items: [
       {
-        title: "Placeholder Working Paper Title",
-        authors: "Your Name",
-        venue: "In preparation",
-        link: null,
-      },
+  title: "Foundation Time-Series AI Model for Realized Volatility Forecasting",
+  authors: "Goel Anubha, Pasricha Puneet, Magris Martin, Kanniainen Juho",
+  venue: "Submitted",
+  link: "https://doi.org/10.48550/arXiv.2505.11163",
+},
+{
+  title: "Time-Series Foundation AI Model for Value-at-Risk Forecasting",
+  authors: "Goel Anubha, Pasricha Puneet, Kanniainen Juho",
+  venue: "Submitted",
+  link: "https://doi.org/10.48550/arXiv.2410.11773",
+},
+{
+  title: "Empirical asset pricing via ensemble Gaussian process regression",
+  authors: "Filipović Damir, Pasricha Puneet",
+  venue: "Revising",
+  link: "http://dx.doi.org/10.2139/ssrn.4292028",
+},
     ],
   },
 ]
