@@ -12,7 +12,7 @@ export default function ContactPage() {
     <div>
       <PageHeader
         title="Contact"
-        description="Get in touch for academic inquiries, collaborations, or speaking invitations."
+        description="Get in touch for academic inquiries and collaborations."
       />
       <div className="mx-auto max-w-5xl px-6">
         <Section>
