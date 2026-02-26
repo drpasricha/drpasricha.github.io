@@ -219,7 +219,7 @@ export default function ResearchPage() {
     <div>
       <PageHeader
         title="Research"
-        description="Publications, working papers, and ongoing research."
+        description="Publications & Working Papers"
       />
       <div className="mx-auto max-w-5xl px-6">
         {publications.map((section, idx) => (
