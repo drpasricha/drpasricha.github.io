@@ -10,7 +10,7 @@ export default function Home() {
         {/* Banner image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/header-banner.jpeg"
+            src="/images/header-banner1.jpeg"
             alt=""
             fill
             className="object-cover"
