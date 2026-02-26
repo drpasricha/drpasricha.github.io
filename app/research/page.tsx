@@ -15,7 +15,7 @@ const publications = [
       {
   title: "Vulnerable options under a Hawkes jump-diffusion model with two-factor stochastic volatility",
   authors: "Pasricha Puneet, He Xinjiang",
-  venue: "International Review of Financial Analysis, Accepted for publication, 2026",
+  venue: "International Review of Financial Analysis, Volume 111, 2026",
   link: "https://doi.org/10.1016/j.irfa.2026.105095",
 },
 {
@@ -189,7 +189,7 @@ const publications = [
   //   ],
   // },
   {
-    category: "Working Papers",
+    category: "Submitted & Working Papers",
     icon: FileText,
     items: [
       {
