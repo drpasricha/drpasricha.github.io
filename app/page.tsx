@@ -25,7 +25,7 @@ export default function Home() {
           <div className="animate-fade-in-up shrink-0">
             <div className="relative h-36 w-36 overflow-hidden rounded-2xl border-2 border-accent/20 shadow-lg md:h-44 md:w-44">
               <Image
-                src="/images/profile-placeholder.jpg"
+                src="/images/profile_picture.jpg"
                 alt="Profile photo"
                 fill
                 className="object-cover"
