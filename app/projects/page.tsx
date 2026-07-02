@@ -33,7 +33,7 @@ export default function ProjectsPage() {
     <div>
       <PageHeader
         title="Projects"
-        description="Grants, collaborations, and ongoing academic projects."
+        description="Grants and ongoing academic projects."
       />
       <div className="mx-auto max-w-5xl px-6">
         <Section>
