@@ -12,7 +12,7 @@ export default function ContactPage() {
     <div>
       <PageHeader
         title="Contact"
-        description="Get in touch for academic inquiries and collaborations."
+        //description="Get in touch for academic inquiries and collaborations."
       />
       <div className="mx-auto max-w-5xl px-6">
         <Section>
@@ -41,7 +41,7 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-1">
                   <span className="text-sm font-semibold text-foreground">Office</span>
                   <p className="text-sm leading-relaxed text-muted-foreground">
-                    Room C-318, Third Floor, SAB<br />
+                    Room C-318, SAB<br />
                     Department of Mathematics<br />
                     Indian Institute of Technology Ropar<br />
                     Rupnagar, Punjab 140001
@@ -56,9 +56,9 @@ export default function ContactPage() {
               <ul className="flex flex-col gap-3">
                 {[
                   { label: "Google Scholar", href: "https://scholar.google.com/citations?user=zafqrsUAAAAJ&hl=en" },
-                  { label: "ORCID", href: "#" },
-                  { label: "ResearchGate", href: "#" },
-                  { label: "LinkedIn", href: "https://www.linkedin.com/in/puneet-p-11128b6a/" },
+                  // { label: "ORCID", href: "#" },
+                  { label: "ResearchGate", href: "https://www.researchgate.net/profile/Puneet_Pasricha?ev=hdr_xprf" },
+                  { label: "LinkedIn", href: "https://www.linkedin.com/in/puneet-pasricha-11128b6a/" },
                   // { label: "GitHub", href: "#" },
                 ].map((profile) => (
                   <li key={profile.label}>
