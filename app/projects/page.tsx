@@ -9,31 +9,22 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    title: "Project Title One",
+    title: "Machine Learning Solutions for Effective Financial Risk Management",
     status: "Active",
-    period: "2024 -- Present",
+    period: "2024 -- Present, ISIRD (IIT Ropar)",
     description:
-      "Brief description of the project, its goals, methodology, and expected outcomes. Replace with your actual project details.",
-    tags: ["Tag A", "Tag B", "Tag C"],
-    link: "#",
+      "The overall objective is to explore, advance and exploit machine learning methods with financial risk management.",
+  //  tags: ["Tag A", "Tag B", "Tag C"],
+//    link: "#",
   },
   {
-    title: "Project Title Two",
+    title: "Learning State-Dependent Hawkes Processes with Gaussian Process Kernels for Modeling Dynamic Contagion",
     status: "Active",
-    period: "2023 -- Present",
+    period: "2026 -- Present, PM-ECRG (ANRF)",
     description:
       "Brief description of another project. Replace with your actual project details.",
-    tags: ["Tag D", "Tag E"],
-    link: "#",
-  },
-  {
-    title: "Completed Project Title",
-    status: "Completed",
-    period: "2021 -- 2023",
-    description:
-      "Brief description of a completed project and its outcomes. Replace with your actual project details.",
-    tags: ["Tag F", "Tag G"],
-    link: null,
+    //tags: ["Tag D", "Tag E"],
+    //link: "#",
   },
 ]
 
