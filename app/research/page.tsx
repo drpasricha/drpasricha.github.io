@@ -189,7 +189,7 @@ const publications = [
   //   ],
   // },
   {
-    category: "Submitted & Working Papers",
+    category: "Preprints",
     icon: FileText,
     items: [
       {
@@ -219,7 +219,7 @@ export default function ResearchPage() {
     <div>
       <PageHeader
         title="Research"
-        description="Publications & Working Papers"
+        description="Publications & Preprints"
       />
       <div className="mx-auto max-w-5xl px-6">
         {publications.map((section, idx) => (
