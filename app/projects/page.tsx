@@ -14,8 +14,8 @@ const projects = [
     period: "2024 -- Present, ISIRD (IIT Ropar)",
     description:
       "The overall objective is to explore, advance and exploit machine learning methods with financial risk management.",
-  //  tags: ["Tag A", "Tag B", "Tag C"],
-//    link: "#",
+    tags: ["Tag A", "Tag B", "Tag C"],
+    link: "#",
   },
   {
     title: "Learning State-Dependent Hawkes Processes with Gaussian Process Kernels for Modeling Dynamic Contagion",
@@ -23,8 +23,8 @@ const projects = [
     period: "2026 -- Present, PM-ECRG (ANRF)",
     description:
       "Brief description of another project. Replace with your actual project details.",
-    //tags: ["Tag D", "Tag E"],
-    //link: "#",
+    tags: ["Tag D", "Tag E"],
+    link: "#",
   },
 ]
 
