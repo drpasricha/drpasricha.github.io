@@ -15,7 +15,7 @@ const projects = [
     description:
       "The overall objective is to explore, advance and exploit machine learning methods with financial risk management.",
     tags: ["Machine Learning", "Risk Management"],
-    link: "#",
+    //link: "#",
   },
   {
     title: "Learning State-Dependent Hawkes Processes with Gaussian Process Kernels for Modeling Dynamic Contagion",
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Combining stochastic analysis, nonparametric learning, and scalable inference, it focuses on applications in financial markets, including limit order book dynamics and insurance risk.",
     tags: ["Hawkes Processes", "Gaussian Process", "Kernel Methods", "Contagion"],
-    link: "#",
+    //link: "#",
   },
 ]
 
