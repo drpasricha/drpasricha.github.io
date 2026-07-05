@@ -22,7 +22,7 @@ const projects = [
     status: "Active",
     period: "2026 -- Present, PM-ECRG (ANRF)",
     description:
-      "Brief description of another project. Replace with your actual project details.",
+      "Combining stochastic analysis, nonparametric learning, and scalable inference, it focuses on applications in financial markets, including limit order book dynamics and insurance risk.",
     tags: ["Hawkes Processes", "Gaussian Process", "Kernel Methods", "Contagion"],
     link: "#",
   },
