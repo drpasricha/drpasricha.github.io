@@ -14,7 +14,7 @@ const projects = [
     period: "2024 -- Present, ISIRD (IIT Ropar)",
     description:
       "The overall objective is to explore, advance and exploit machine learning methods with financial risk management.",
-    tags: ["Tag A", "Tag B", "Tag C"],
+    tags: ["Machine Learning", "Risk Management"],
     link: "#",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     period: "2026 -- Present, PM-ECRG (ANRF)",
     description:
       "Brief description of another project. Replace with your actual project details.",
-    tags: ["Tag D", "Tag E"],
+    tags: ["Hawkes Processes", "Gaussian Process", "Kernel Methods", "Contagion"],
     link: "#",
   },
 ]
